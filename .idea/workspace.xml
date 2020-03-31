@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1474b897-8919-4863-ac7e-0565ef60e962" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pesel/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pesel/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pesel/PeselDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pesel/PeselMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pesel/PeselService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pesel/PeselValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PeselTest/PeselDecoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PeselTest/PeselServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PeselTest/PeselValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -44,6 +40,94 @@
       <recent name="pesel" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.PeselServiceTest">
+    <configuration name="PeselDecoderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pesel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PeselTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PeselTest" />
+      <option name="MAIN_CLASS_NAME" value="PeselTest.PeselDecoderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PeselDecoderTest.dynamicTestForDecodingBirthDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pesel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PeselTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PeselTest" />
+      <option name="MAIN_CLASS_NAME" value="PeselTest.PeselDecoderTest" />
+      <option name="METHOD_NAME" value="dynamicTestForDecodingBirthDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PeselDecoderTest.dynamicTestsForDecodeGender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pesel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PeselTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PeselTest" />
+      <option name="MAIN_CLASS_NAME" value="PeselTest.PeselDecoderTest" />
+      <option name="METHOD_NAME" value="dynamicTestsForDecodeGender" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PeselServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pesel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PeselTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PeselTest" />
+      <option name="MAIN_CLASS_NAME" value="PeselTest.PeselServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PeselValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pesel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PeselTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PeselTest" />
+      <option name="MAIN_CLASS_NAME" value="PeselTest.PeselValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PeselServiceTest" />
+        <item itemvalue="JUnit.PeselDecoderTest" />
+        <item itemvalue="JUnit.PeselDecoderTest.dynamicTestsForDecodeGender" />
+        <item itemvalue="JUnit.PeselDecoderTest.dynamicTestForDecodingBirthDate" />
+        <item itemvalue="JUnit.PeselValidatorTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -62,5 +146,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585646704442" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585648991566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585648991566" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585648991566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585648991566" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585648991566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585648991566" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585648991566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585648991566" />
   </component>
 </project>
